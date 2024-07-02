@@ -16,7 +16,7 @@
                     @empty
                         <div class="col-12">
                             <div class="fs-1 text-center rounded border p-5 ">
-                                Home not found :()
+                                Home not found :(
                             </div>
                         </div>
                     @endforelse

@@ -13,9 +13,9 @@ class Style extends Model
     public $timestamps = false;
 
 
-    public function styleModels()
+    public function styleinteriors()
     {
-        return $this->hasMany(StyleModel::class)
+        return $this->hasMany(Styleinterior::class)
             ->orderBy('name');
     }
 

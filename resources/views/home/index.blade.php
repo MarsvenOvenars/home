@@ -9,7 +9,7 @@
                 Locations
             </div>
             <div class="row g-3">
-                @foreach ($locations as $Location)
+                @foreach ($locations as $location)
                     <div class="col">
                         <div class="border rounded p-2">
                             <div class="h6 mb-0">
@@ -44,7 +44,7 @@
                                 </span>
                             </div>
                             <div>
-                                @foreach ($styles->styleinterior as $styleinterior)
+                                @foreach ($style->styleinteriors as $styleinterior)
                                     <div>
                                         <a href="{{ route('homes.index', ['styleinterior' => $styleinterior->id]) }}"
                                             class="link-dark text-decoration-none">

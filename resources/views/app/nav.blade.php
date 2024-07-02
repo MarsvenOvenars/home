@@ -9,16 +9,16 @@
         <div class="collapse navbar-collapse" id="navbar">
             <ul class="navbar-nav me-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ route('players.index') }}">Location</a>
+                    <a class="nav-link" href="{{ route('homes.index') }}">Location</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ route('players.index') }}">Styles</a>
+                    <a class="nav-link" href="{{ route('homes.index') }}">Styles</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ route('players.index') }}">Style interior</a>
+                    <a class="nav-link" href="{{ route('homes.index') }}">Style interior</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ route('players.index') }}">Homes</a>
+                    <a class="nav-link" href="{{ route('homes.index') }}">Homes</a>
                 </li>
 
             </ul>

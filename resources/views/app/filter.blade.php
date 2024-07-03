@@ -34,7 +34,7 @@
             <label for="style" class="form-label fw-semibold">Style</label>
             <select class="form-select" id="style" name="style">
                 <option value>-</option>
-                @foreach($styles as $style)
+                @foreach($style)
                     <option value="{{ $style->id }}" {{ $style->id == $style ? 'selected':'' }}>
                         {{ $style->name }}
                     </option>
@@ -46,7 +46,7 @@
             <label for="styleinterior" class="form-label fw-semibold">Style interior</label>
             <select class="form-select" id="styleinterior" name="styleinterior">
                 <option value>-</option>
-                @foreach($styles as $style)
+                @foreach($style)
                     @foreach($style->styleinterior as $styleinterior)
                         <option value="{{ $styleinterior->id }}" {{ $styleinterior->id == $styleinterior ? 'selected':'' }}>
                             {{ $styles->name }} / {{ $leagstyleinteriorueClub->name }}

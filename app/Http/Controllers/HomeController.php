@@ -111,8 +111,8 @@ return view('homes.index')
             ->with([
                 'objs' => $objs,
                 'users' => $users,
-                'locations' => $locations,
-                'styles' => $styles,
+                'locations' => $location,
+                'styles' => $style,
                 'colors' => $colors,
                 'years' => $years,
                 'f_q' => $f_q,
